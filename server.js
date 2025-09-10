@@ -30,9 +30,9 @@ app.post("/create_preference", async (req, res) => {
       external_reference,
       description,
       back_urls: {
-        success: "https://tu-dominio.netlify.app/pago-exitoso",
-        failure: "https://tu-dominio.netlify.app/pago-fallido",
-        pending: "https://tu-dominio.netlify.app/pago-pendiente"
+        success: "https://serendipiabymika.netlify.app/sucess.html",
+        failure: "https://serendipiabymika.netlify.app/failure.html",
+        pending: "https://serendipiabymika.netlify.app/pending.html"
       },
       auto_return: "approved"
     });
